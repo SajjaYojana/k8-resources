@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    course: k8
+    trainee: Yojana
+  annotations:
+    kubernetes.io/created-by: 'yojana'
+    jenkins.build.url: 'https://jenkins.daws78s.fun/expense/job/backend/54'  
+spec:
+  containers:
+  - name: nginx
+    image: nginx
