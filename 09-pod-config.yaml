@@ -15,8 +15,8 @@ spec:
         configMapKeyRef:
           name: daws78s
           key: course
-    - name: trainer
+    - name: trainee
       valueFrom:
         configMapKeyRef:
           name: daws78s
-          key: trainer
+          key: trainee
